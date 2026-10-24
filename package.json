@@ -1,0 +1,30 @@
+{
+  "name": "threadback",
+  "version": "0.1.0",
+  "description": "Reconnect to any paused project in under a minute: what's built, what's unfinished, what to do next.",
+  "type": "module",
+  "main": "bin/threadback.js",
+  "bin": {
+    "threadback": "./bin/threadback.js",
+    "pm": "./bin/threadback.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node bin/threadback.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": [
+    "cli",
+    "threadback",
+    "developer-tools",
+    "git",
+    "status",
+    "sessions",
+    "project-memory",
+    "brief"
+  ],
+  "author": "",
+  "license": "MIT"
+}

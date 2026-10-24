@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.*
+.threadback/
+*.log
+.DS_Store
+Thumbs.db
+dist/
+coverage/
+.project-memory/
+demo-repo/
